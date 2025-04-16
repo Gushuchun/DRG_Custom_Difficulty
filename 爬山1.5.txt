@@ -1,6 +1,6 @@
 {
   "Name": "爬山难度1.5",
-  "Description": "古叔醇小改自用版--固定怪更少；虫质量更高；无友伤；降低飞猪抗性；隐刀抗性下调，场上最多存在2只；移速修正为0.6倍；移除了王草BET娃娃机腐化者无人机黄金大自爆",
+  "Description": "古叔醇小改自用版--固定怪更少；虫质量更高；无友伤；降低飞猪抗性；隐刀抗性下调，数量减少；移速修正为0.6倍；移除了王草BET娃娃机腐化者无人机黄金大自爆",
   "MaxActiveCritters": 40,
   "MaxActiveSwarmers": 80,
   "MaxActiveEnemies": 360,
@@ -244,7 +244,9 @@
       "Rarity": 30,
       "CanBeUsedForConstantPressure": true,
       "CanBeUsedInEncounters": false,
-      "MaxSpawnCount": 3,
+      "MaxSpawnCount": 2,
+      "MaxSpawnCount": 1,
+      "MinSpawnCount": 0,
       "PawnStats": {
         "PST_ColdResistance": -1,
         "PST_CorrosiveResistance": -1,
